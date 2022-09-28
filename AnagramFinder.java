@@ -25,7 +25,7 @@ public class Chall3 {
             inputASC2[i] = (int) input.charAt(i);
         }
         Arrays.sort(inputASC2);
-        File file = new File("D:\\VCodeStudio\\CSC233_Chall\\Chall3\\Chall3_WordList.txt");
+        File file = new File("\\path to your word list\\");
         BufferedReader br = new BufferedReader(new FileReader(file));
         String st;
         while ((st = br.readLine()) != null){
